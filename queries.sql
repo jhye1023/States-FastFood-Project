@@ -50,4 +50,16 @@ GROUP BY r."State", s."Population"
 ORDER BY s."Population" DESC 
 LIMIT 15;
 
+--top 15 states by restaurant count
+SELECT 
+	r."State",
+	s."Population",
+	COUNT(r."Restaurant_Name") restaurant_count	
+FROM state_population s
+JOIN restaurant r
+	ON s."State Abbreviation" = r."State"
+GROUP BY r."State", s."Population"
+ORDER BY restaurant_count DESC 
+LIMIT 15;
+
 
