@@ -1,6 +1,6 @@
-# etl-project
+### etl-project
 
-## Guidelines for ETL Project
+# Guidelines for ETL Project
 
 ### Team Effort
 Due to the short timeline, teamwork will be crucial to the success of this project! Work closely with your team through all phases of the project to ensure that there are no surprises at the end of the week.<br>
