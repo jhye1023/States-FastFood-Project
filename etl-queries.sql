@@ -54,5 +54,12 @@ SELECT s."State Name", r."Restaurant_Name", COUNT(r."Restaurant_Name") Restauran
 JOIN restaurant r ON s."State Abbreviation" = r."State"
 WHERE s."State Name" = 'Ohio'
 GROUP BY r."Restaurant_Name", s."State Name"
-ORDER BY Restaurant_Name_Count DESC;
+ORDER BY Restaurant_Name_Count DESC LIMIT 10;
+
+-- maybe we could pick one state with the most restaurants?
+SELECT s."State Name", r."Restaurant_Name", COUNT(r."Restaurant_Name") Restaurant_Name_Count FROM state_population s
+JOIN restaurant r ON s."State Abbreviation" = r."State"
+WHERE s."State Name" = 'Ohio'
+GROUP BY r."Restaurant_Name", s."State Name"
+ORDER BY Restaurant_Name_Count DESC LIMIT 10;
 
