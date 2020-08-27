@@ -1,6 +1,6 @@
-# etl-project
+### etl-project
 
-## Guidelines for ETL Project
+# Guidelines for ETL Project
 
 ### Team Effort
 Due to the short timeline, teamwork will be crucial to the success of this project! Work closely with your team through all phases of the project to ensure that there are no surprises at the end of the week.<br>
@@ -8,12 +8,11 @@ Working in a group enables you to tackle more difficult problems than you'd be a
 
 ### Project Proposal
 Before you start writing any code, remember that you only have one week to complete this project. View this project as a typical assignment from work. Imagine a bunch of data came in and you and your team are tasked with migrating it to a production data base.<br>
-Take advantage of your Instructor and TA support during office hours and class project work time. They are a valuable resource and can help you stay on track. <br>
 
 ### Finding Data
 Your project must use 2 or more sources of data. We recommend the following sites to use as sources of data:<br>
--data.world
--Kaggle
+-data.world<br>
+-Kaggle<br>
 
 ### Data Cleanup & Analysis
 Once you have identified your datasets, perform ETL on the data. Make sure to plan and document the following:<br>
@@ -30,4 +29,4 @@ At the end of the week, your team will submit a Final Report that describes the 
 <strong>Transform</strong>: what data cleaning or transformation was required.<br>
 <strong>Load</strong>: the final database, tables/collections, and why this was chosen.<br>
 <br>
-Please upload the report to Github and submit a link to Bootcampspot.<br>
+Please upload the report to Github and submit a link to Bootcampspot.
