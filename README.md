@@ -1,6 +1,6 @@
 # U.S. State Populations Vs. Total Fast Food Restaurants 
 
-Thanks for checking out our team's repo! Our team retrieved data from multiple sources to analyze total fast food restaurants across the United States. We used the ETL process for reading data, structuring data, and writing data into a SQL database.
+Thanks for checking out our team's repo! Our team retrieved data from multiple sources to analyze trends in fast food restaurants across the United States. We used the ETL process for reading data, structuring data, and writing data into a SQL database. Please check out our 'ETL_main.ipynb' file to observe our ETL process and our 'queries.sql' file to see our data queries. You can find a complete project report in our 'Project Report.docx' file.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -65,3 +65,9 @@ At the end of the week, your team will submit a Final Report that describes the 
 <strong>Load</strong>: the final database, tables/collections, and why this was chosen.<br>
 <br>
 Please upload the report to Github and submit a link to Bootcampspot.
+
+<!--Built With-->
+## Team Members
+* [ Todd Auman ](https://github.com/jtauman)
+* [ Bobby Huffstetler ](https://github.com/bhuffstetler)
+* [ Kristi McGrath ](https://github.com/kmcgrath88)
