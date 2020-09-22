@@ -1,6 +1,41 @@
-### etl-project
+# U.S. State Populations Vs. Total Fast Food Restaurants 
 
-# Guidelines for ETL Project
+Thanks for checking out our team's repo! Our team retrieved data from multiple sources to analyze total fast food restaurants across the United States. We used the ETL process for reading data, structuring data, and writing data into a SQL database.
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Project Instructions](#project-instructions)
+* [Team Members](#team-members)
+
+<!--About the Project-->
+## About the Project
+ETL Process:
+* Data Extraction: Data in the ‘Fast_Food_Restaurants.csv’ file was extracted from Kaggle.com. U.S. state populations and state abbreviations were extracted from Wikipedia.
+* Data Transformation: Data was cleaned by removing unwanted columns/rows, formatting data, merging dataframes through Pandas, and adjusting columns/indices according to our PostgreSQL database.
+* Data Loading: Transformed dataframes were loaded into our PostgreSQL database into their appropriate tables.
+
+Data Queries:
+* Queries were explored through our PostgreSQL database and Pandas dataframes. The following queries were used to analyze fast food restaurants across the United States and create visualizations through Matplotlib:
+  * Aggregate across states to get count of restaurants
+  * Aggregate across states to get count of restaurants joined with populations
+  * Number of restaurants in the top 15 most populous states
+  * Top 15 states by restaurant count
+  * Ohio restaurants
+  * California restaurants
+
+<!--Built With-->
+### Built With
+This project was built using the following frameworks:<br>
+* Python
+* PostgreSQL
+* Pandas
+* Matplotlib
+
+<!--Project Instructions-->
+## Project Instructions
 
 ### Team Effort
 Due to the short timeline, teamwork will be crucial to the success of this project! Work closely with your team through all phases of the project to ensure that there are no surprises at the end of the week.<br>
