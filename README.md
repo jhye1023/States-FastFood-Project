@@ -30,6 +30,7 @@ Data Queries:
 ### Built With
 This project was built using the following frameworks:<br>
 * Python
+* SQLAlchemy
 * PostgreSQL
 * Pandas
 * Matplotlib
