@@ -67,7 +67,7 @@ At the end of the week, your team will submit a Final Report that describes the 
 <br>
 Please upload the report to Github and submit a link to Bootcampspot.
 
-<!--Built With-->
+<!--Team Members-->
 ## Team Members
 * [ Todd Auman ](https://github.com/jtauman)
 * [ Bobby Huffstetler ](https://github.com/bhuffstetler)
