@@ -28,7 +28,7 @@ Data Queries:
 
 <!--Built With-->
 ### Built With
-This project was built using the following frameworks:<br>
+This project was built using the following frameworks/libraries:<br>
 * Python
 * SQLAlchemy
 * PostgreSQL
